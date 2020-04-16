@@ -1,0 +1,65 @@
+.card{
+	margin: 20px 0 30px;
+	border: 0;
+	border-radius: 0;
+	transition: all 0.4s ease-in-out;
+	font-family: 'Raleway', sans-serif;
+}
+
+.infected {
+	border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+	box-shadow: 0 0 20px rgba(0, 0, 255, 0.3);
+}
+
+.infected:hover {
+	box-shadow: 0 0 20px rgba(0, 0, 255, 0.6);	
+}
+
+.recovered {
+	border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+	box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+}
+
+.recovered:hover {
+	box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);	
+}
+
+.deaths {
+	border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+	box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+}
+
+.deaths:hover {
+	box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);	
+}
+
+.title{
+	font-weight: 800;
+}
+
+.count{
+	font-weight: 600;
+}
+
+.date_stamp{
+	font-weight: 500;
+}
+
+.infectedcolor{
+	color: rgba(0, 0, 255, 0.8);
+}
+
+.recoveredcolor{
+	color: rgba(0, 255, 0, 0.8);
+}
+
+.deathcolor{
+	color: rgba(255, 0, 0, 0.8);
+}
+
+
+@media(max-width: 767px) {
+	.card {
+		margin: 20px 0 0;
+	}	
+}
